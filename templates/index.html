@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block content %}
+<div class="row">
+  <div class="two_columns">
+    <img src="/static/css/coffeebreak.png" alt="logo" />
+  </div>
+
+  <div class="ten columns">
+    <h1>Greetings, coffee break sponsored by Arish</h1>
+  </div>
+</div>
+
+<form action="/hello/Arish" method="get">
+  <input type="submit" value="New Order" />
+</form>
+
+<img src="/static/images/images.jpg" alt="hot coffee" width="100%" />
+
+<p>
+  Image by:
+  <a href="https://share.google/zAHgaNYSZqUWVdX95">Source</a>
+</p>
+{% endblock %}
